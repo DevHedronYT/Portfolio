@@ -127,9 +127,10 @@ html {
 }
 
 iframe {
-    margin-left: 200px;
+    margin-left: 30px;
     margin-right: 100px;
     margin-top: 50px;
+    width: 300px;
 }
 
 #big {

@@ -1,0 +1,104 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;    
+  background-color: black;
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.about {
+  width: 50%;
+  height: 35%;
+  margin: auto;
+  font-size: 10;
+  /*padding-right: 10vh;
+  padding-left: 10vh;
+  font-size: 20px;*/
+}
+
+iframe {
+  display: inline-block;
+  margin: auto;
+  margin-left: 5px;
+  width: 60%;
+}
+
+.socials .button {
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 0 5px;
+  overflow: hidden;
+  background-color: rgb(29, 27, 27);
+  border-radius: 50px;
+  box-shadow: 0px 10px 10px rgba(255,255,255,0.15);
+  transition: all 0.3s ease-out;
+}
+.socials .button:hover{
+  width: 200px;
+}
+
+.socials .button .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.twitter:hover {
+  background-color: royalblue;
+}
+
+.youtube:hover {
+  background-color: red;
+}
+
+.github:hover {
+  background-color: #333;
+}
+
+.socials .button .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+.socials .button:hover .icon i{
+  color: #fff;
+}
+.socials .button span{
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  margin-left: 1px;
+  transition: all 0.3s ease-out;
+}
+
+.socials .button span a {
+  color: white;
+  text-decoration: none;
+}
+
+.socials .button span a:hover {
+  color: burlywood;
+}
+
+.socials li {
+  display: inline-block;
+}

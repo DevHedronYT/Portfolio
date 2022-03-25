@@ -1,0 +1,15 @@
+{
+  "short_name": "Portfolio",
+  "name": "DevHedron's Portfolio",
+  "icons": [
+    {
+      "src": "hedron.jpg",
+      "type": "image/jpg",
+      "sizes": "176x176"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

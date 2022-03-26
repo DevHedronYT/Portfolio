@@ -36,6 +36,39 @@ iframe {
   width: 60%;
 }
 
+.projects_git {
+  height: 30%;
+  background-color: rgb(29, 27, 27);
+  color: white;
+  display: block;
+  width: auto;
+  max-width: 60%;
+  margin: auto;
+}
+
+.github-proj {
+  border-style: dashed;
+  position:inherit;
+  text-decoration: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 15px;
+}
+
+.github-proj p {
+  font-size: 15px;
+}
+
+.github-proj a {
+  text-decoration: none;
+  color:cadetblue;
+}
+
+.github-proj a:hover {
+  text-decoration: none;
+  color:rgb(16, 206, 213);
+}
+
 .socials .button {
   display: inline-block;
   height: 60px;

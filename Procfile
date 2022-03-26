@@ -1,2 +1,4 @@
 npm install
-npm build
+npm run build
+npm install -g serve
+serve -s build

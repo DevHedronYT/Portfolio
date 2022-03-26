@@ -2,61 +2,57 @@ html {
   font-family: Arial, Helvetica, sans-serif;    
   background-color: black;
   color: white;
-}
-
-.App {
   text-align: center;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
+#captions{
+  margin-top: -10px;
+  font-weight: lighter;
 }
 
-h1 {
+.section {
   text-align: center;
   font-weight: lighter;
   font-style: italic;
 }
 
 .about {
-  width: 50%;
+  width: 80%;
   height: 35%;
   margin: auto;
-  font-size: 10;
-  /*padding-right: 10vh;
-  padding-left: 10vh;
-  font-size: 20px;*/
+  font-size: 18px;
+  text-align: center;
 }
 
 iframe {
-  display: inline-block;
   margin: auto;
-  margin-left: 5px;
-  width: 60%;
+  width: 80%;
 }
 
 .projects_git {
   height: 30%;
-  background-color: rgb(29, 27, 27);
+  background-color: rgb(22, 21, 21);
   color: white;
   display: block;
   width: auto;
-  max-width: 60%;
+  max-width: 80%;
   margin: auto;
 }
 
 .github-proj {
-  border-style: dashed;
-  position:inherit;
-  text-decoration: none;
-  padding-left: 5px;
-  padding-right: 5px;
+  border-style:double;
+  border-radius: 10px;
   padding-bottom: 15px;
+  padding: 10px;
+}
+
+.github-proj h1 {
+  font-weight: lighter;
+  font-style: italic;
 }
 
 .github-proj p {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .github-proj a {

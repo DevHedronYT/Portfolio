@@ -6,7 +6,7 @@ const GProj = ({name, description, stars, language, url}) => {
             <h1>{name}</h1>
             <p>{description}</p>
             <h1>Stars: {stars}</h1>
-            <h1>Written mainly in {language}</h1>
+            <h1>Language: {language}</h1>
             <a href={url}>Link</a>
         </div>
     );

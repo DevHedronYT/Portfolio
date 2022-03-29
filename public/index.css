@@ -1,0 +1,164 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;    
+  /*background-color: rgb(17, 16, 16); */
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.section {
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(25, 25, 27);
+}
+
+#nav ul li a {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#nav ul li a:hover { 
+  background-color: royalblue; 
+  color: white;
+  border-radius: 10px;
+}
+
+#captions{
+  margin-top: -10px;
+  font-weight: lighter;
+}
+
+.about {
+  width: 80%;
+  height: 35%;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+}
+
+iframe {
+  margin: auto;
+  width: 80%;
+}
+
+.section .itch {
+  text-decoration: none;
+  color: white;
+  transition: ease-in, 0.3s;
+}
+
+
+.section .itch:hover {
+  text-decoration: none;
+  background-color: royalblue;
+  padding: 3px;
+  border-radius: 5px;
+
+}
+
+
+
+.projects_git {
+  height: 30%;
+  color: white;
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+
+.github-proj {
+  background-color: rgb(22, 21, 21);
+  border-style:double;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.github-proj h1 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.github-proj p {
+  font-size: 13px;
+}
+
+.github-proj a {
+  text-decoration: none;
+  color:cadetblue;
+  transition: all 0.3s ease 0s;
+  background-color: rgb(244, 242, 244, 0);
+  padding: 4px 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.github-proj a:hover {
+  text-decoration: none;
+  color:white;
+  background-color: rgba(33, 87, 189, 0.9);
+}
+
+.blog-post {
+  width: auto;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-style: double;
+  border-radius: 7px;
+}
+
+.skills ul {
+  width: auto;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li {
+  list-style-position: inside;
+}
+
+.socials {
+  max-width: 80%;
+  width: auto;
+  margin: 0 auto;
+}
+
+.socials .button {
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.socials .button:hover {
+  background-color: royalblue;
+  border-radius: 10px;
+}
+
+.socials h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+}

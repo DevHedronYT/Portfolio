@@ -1,5 +1,3 @@
-import React from 'react';
-
 const BlogPost = ({title, content, date}) => {
     return (
         <div className = "blog-post">

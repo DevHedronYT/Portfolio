@@ -1,5 +1,3 @@
-
-
 function Skills() {
     return (
         <div className = "skills">

@@ -1,6 +1,32 @@
 import React, {useState} from 'react';
-import get_json_obj_from_link from './components/get_json';
-import GProj from './components/GithubProject';
+import GProj from './GithubProject';
+
+async function get_json_obj_from_link(url, mode) {
+    try { 
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+    } catch(e) {
+        console.log(e);
+
+        // for git
+        var projects = [{
+            "full_name" : "none_two",
+            "name" : "data missing",
+            "description" : "failed to get data from request",
+            "stargazers_count" : "-1",
+            "language" : "failed to get data",
+            "url" : "no data",
+            "games" : [{
+                "name" : "none",
+                "views_count" : "-1"
+            }]
+        }];
+
+        return projects;
+    }
+}
+
 
 const all_repos = get_json_obj_from_link("https://api.github.com/users/DevHedronYT/repos", "cors");
 // const all_itch_proj = get_json_obj_from_link("https://cors-hedron.herokuapp.com/https://itch.io/api/1/APn3S7HjLH65hibiaYWZXGCULbOZeG7mrGfsWfFy/my-games", "cors");

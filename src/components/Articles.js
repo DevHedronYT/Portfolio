@@ -1,5 +1,5 @@
 import {React, useState} from 'react';
-import BlogPost from "./components/BlogPost";
+import BlogPost from "./BlogPost";
 import blog_posts from "./posts/blog";
 
 const values = Object.values(blog_posts);

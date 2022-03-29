@@ -1,5 +1,3 @@
-import React from 'react';
-
 const GProj = ({name, description, stars, language, url}) => {
     return (
         <div className = "github-proj">

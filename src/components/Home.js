@@ -85,7 +85,7 @@ function Home() {
     } */
 
     return (
-        <div className = "App"> 
+        <div className = {style.App}> 
             <img alt = "icon" src = "res/hedron.png" width = "176" height = "176"></img>
 
             <h1 className = {style.section}>DevHedron</h1>

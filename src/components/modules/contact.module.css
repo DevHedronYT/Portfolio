@@ -7,6 +7,10 @@
   font-style: oblique;
 }
 
+.contact ul {
+  margin: 0;
+}
+
 .contact .button {
   display: table;
   transition: all 0.3s ease 0s;

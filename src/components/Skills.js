@@ -1,6 +1,8 @@
+import style from './modules/skills.module.css';
+
 function Skills() {
     return (
-        <div className = "skills">
+        <div className = {style.skills}>
             <h1>Languages</h1>
             <ul>
                 <center>
@@ -13,11 +15,12 @@ function Skills() {
                 <center>
                     <li>SDL2</li>
                     <li>Pygame</li>
+                    <li>Git & GitHub</li>
                     <li>Game Design</li>
                     <li>Research & Analysis, Commonly writing tech articles</li>
                 </center>
             </ul>
-            <h1>Technologies I Am Learning/Like To Learn</h1>
+            <h1>Software I'm Learning</h1>
             <ul>
                 <center>
                     <li>Flask, Web-scraping and Data Analysis in Python</li>

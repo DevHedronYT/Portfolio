@@ -1,0 +1,40 @@
+.section {
+  text-align: center;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#captions{
+  margin-top: -10px;
+  font-weight: lighter;
+}
+
+.about {
+  width: 80%;
+  height: 35%;
+  margin: auto;
+  font-size: 22px;
+  text-align: center;
+}
+
+.section .itch {
+  text-decoration: none;
+  color: white;
+  transition: ease-in, 0.3s;
+  padding-left: 3px;
+  padding-right: 3px;
+  margin: 0;
+}
+
+.section .itch:hover {
+  text-decoration: none;
+  background-color: royalblue;
+  border-radius: 5px;
+}
+
+.projects_git {
+  color: white;
+  display: block;
+  width: 80%;
+  margin: auto;
+}

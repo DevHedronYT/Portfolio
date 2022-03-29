@@ -1,0 +1,14 @@
+.skills {
+  padding: 10px;
+}
+
+.skills ul {
+  width: auto;
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills ul li {
+  list-style-position: inside;
+}

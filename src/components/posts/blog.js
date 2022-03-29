@@ -18,11 +18,14 @@ reader.readAsText(f);
 */
 
 const title_0 = "Welcome to my website!"
-const content_0 = "Yooo! It's me DevHedron and welcome to this website I made using React.js. It took me countless hours to make this website and it was worth it.";
+const content_0 = 
+`Yooo! It's me DevHedron and welcome to this website I made using React.js. 
+It took me countless hours to make this website and it was worth it. <br> 
+<img alt = 'article_img' src = 'res/hedron.png' width = '176' height = '176'>`;
 const date_0 = "27/03/2022";
 
 const title_1 = "Testing article 2"
-const content_1 = "Testing"
+const content_1 = "Testing <h1>XSS attack</h1></script>"
 const date_1 = "27/03/2022";
 
 const blog_posts = {

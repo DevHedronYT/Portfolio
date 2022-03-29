@@ -1,0 +1,24 @@
+#nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:rgb(25, 25, 27);
+}
+
+#nav ul li a {
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: all 0.3s ease 0s;
+}
+
+#nav ul li a:hover { 
+  background-color: royalblue; 
+  color: white;
+  border-radius: 10px;
+}

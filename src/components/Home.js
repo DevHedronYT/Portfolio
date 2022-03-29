@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import GProj from './GithubProject';
+import style from './modules/home.module.css';
 
 async function get_json_obj_from_link(url, mode) {
     try { 
@@ -85,12 +86,12 @@ function Home() {
 
     return (
         <div className = "App"> 
-            <img alt = "icon" src = "res/hedron.jpg"></img>
+            <img alt = "icon" src = "res/hedron.png" width = "176" height = "176"></img>
 
-            <h1 className = "section">DevHedron</h1>
-            <h3 id = "captions">Student & Hobbyist Game Dev</h3>
+            <h1 className = {style.section}>DevHedron</h1>
+            <h3 id = {style.captions}>Student & Hobbyist Game Dev</h3>
 
-            <div className="about">
+            <div className={style.about}>
                 <p> 
                     Hi! I'm DevHedron, I am a hobbyist programmer who has been 
                     programming for 3 years now. I am experienced mainly in C
@@ -100,15 +101,15 @@ function Home() {
             </div>
 
 
-            <h1 className = "section">GitHub Projects</h1>
-            <div className = "projects_git">
+            <h1 className = {style.section}>GitHub Projects</h1>
+            <div className = {style.projects_git}>
                 {
                     gitProjects.map(project => (
                         <GProj key = {project.full_name} name = {project.name} description = {project.description} stars = {project.stargazers_count} language = {project.language} url = {project.html_url}/>
                     ))
                 }
             </div>
-            <h1 className = "section"><a className = "itch" href = "https://devhedronyt.itch.io">itch.io Projects</a></h1>
+            <h1 className = {style.section}><a className = {style.itch} href = "https://devhedronyt.itch.io">itch.io Projects</a></h1>
         </div>
     );
 }

@@ -1,0 +1,32 @@
+.socials {
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  background-color:rgb(25, 25, 27);
+}
+
+.socials .button {
+  display: inline-block;
+  padding: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+.socials .button:hover {
+  background-color: royalblue;
+  border-radius: 10px;
+}
+
+.socials h1 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.socials a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  padding-top: 10px;
+}

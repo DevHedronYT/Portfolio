@@ -1,6 +1,8 @@
+import style from "./modules/nav.module.css";
+
 function NavBar() {
     return (
-        <header id = "nav"> 
+        <header id = {style.nav}> 
             <nav>
                 <ul>
                     <li> 
@@ -11,6 +13,9 @@ function NavBar() {
                     </li>
                     <li> 
                         <a href = "/skills">Skills</a>
+                    </li>
+                    <li> 
+                        <a href = "/contact">Contact</a>
                     </li>
                 </ul>
             </nav>

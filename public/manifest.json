@@ -3,8 +3,8 @@
   "name": "DevHedron's Portfolio",
   "icons": [
     {
-      "src": "hedron.jpg",
-      "type": "image/jpg",
+      "src": "res/hedron.png",
+      "type": "image/png",
       "sizes": "176x176"
     }
   ],

@@ -1,0 +1,19 @@
+.contact {
+  max-width: 100%;
+  width: auto;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+.contact .button {
+  display: table;
+  transition: all 0.3s ease 0s;
+}
+
+.contact .button:hover {
+  background-color: royalblue;
+  border-radius: 10px;
+}
+

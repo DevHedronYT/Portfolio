@@ -1,46 +1,18 @@
-/*
 .github_proj {
-  background-color: rgb(22, 21, 21);
-  border-style:double;
-  border-radius: 10px;
-  padding: 10px;
-  text-shadow: 2px 2px red;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-}
-
-
-.github_proj:hover {
-  box-shadow: 5px 5px rgb(92, 91, 86);
-}
-
-.github_proj h1 {
-  font-weight: lighter;
-  font-style: italic;
-}
-
-.github_proj p {
-  font-size: 20px;
-}
-
-*/
-
-.github_proj {
-  border-radius: 10px;
-  display: inline-block;
-  padding: 15px;
+  max-width: 80%;
   width: auto;
-  transition: 0.3s;
-  position: relative; 
+  margin: 0 auto;
+  transition: all 0.3s;
+  padding: 15px;
 }
 
 .container {
-  background-color: rgb(43, 39, 38);
-  padding: 20px;
+  background-color: rgb(22, 21, 21);
+  transition: all 0.3s;
   border-radius: 5px;
-  box-shadow: 10px 4px 8px 0 rgb(55, 55, 55, 0.6);
-  transition: 0.3s;
   border: solid;
+  box-shadow: 10px 4px 8px 0 rgb(55, 55, 55, 0.6);
+  padding: 20px;
 }
 
 .container:hover {
@@ -52,6 +24,8 @@
 }
 
 .container h1 {
+  margin: 0 auto;
+  padding-bottom: 15px;
   font-size: 30px;
   font-weight: 700;
 }

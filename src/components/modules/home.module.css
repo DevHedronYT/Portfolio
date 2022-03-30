@@ -23,11 +23,7 @@
 }
 
 .projects_git {
-  color: white;
-  display: block;
-  width: 80%;
-  margin: auto;
-  padding-bottom: 20px;
+  padding: 10px;
 }
 
 .section .itch {
@@ -41,5 +37,6 @@
 .section .itch:hover {
   text-decoration: none;
   background-color: royalblue;
+  text-shadow: 2px 2px black;
   border-radius: 5px;
 }

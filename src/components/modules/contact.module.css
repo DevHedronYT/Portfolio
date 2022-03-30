@@ -13,11 +13,13 @@
 
 .contact .button {
   display: table;
+  padding: 3px;
   transition: all 0.3s ease 0s;
 }
 
 .contact .button:hover {
   background-color: royalblue;
+  text-shadow: 2px 2px black;
   border-radius: 10px;
 }
 

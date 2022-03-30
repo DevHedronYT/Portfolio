@@ -19,6 +19,7 @@
 
 #nav ul li a:hover { 
   background-color: royalblue; 
+  text-shadow: 2px 2px black;
   color: white;
   border-radius: 10px;
 }
